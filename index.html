@@ -2,10 +2,63 @@
 <html lang="en">
 <head>
     <title>Exercise 1</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+        body{
+            font-family: 'Open Sans',serif;
+        }
+        
+        .center {
+            text-align: center;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .box-element {
+            width: 40%;
+            height: 30%;
+            background-color: gainsboro;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
-    <center>
-        <h1>Biodata</h1>
-    </center>
+    <h1 class="center">Biodata</h1>
+    <form action="">
+        <div class="box-element">
+            <h3 class="underline">Personal Information</h2>
+            <div>
+                <label for=""><strong>Name : </strong>Muhammad Pajar Kharisma Putra</label>
+            </div>
+    
+            <div>
+                <label for=""><strong>DoB : </strong>Palangka Raya, 2 July 1995</label>
+            </div>
+    
+            <div>
+                <label for=""><strong>Email : </strong>pajarkharisma@hotmail.com</label>
+            </div>
+    
+            <div>
+                <label for=""><strong>Address : </strong>Kostan mbah Made</label>
+            </div>
+        </div>
+
+        <div class="box-element">
+            <h3 class="underline">Other Information</h2>
+            <div>
+                <label for=""><strong>Job : </strong>Student</label>
+            </div>
+    
+            <div>
+                <label for=""><strong>Hobby : </strong>Watching anime, reading comics and playing game</label>
+            </div>
+        </div>
+    </form>
 </body>
 </html>
